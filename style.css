@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 30;
     box-sizing: border-box;
 }
 header a {
@@ -52,6 +52,26 @@ h1 {
     font-size: 1.5rem;
     line-height: 1.5rem;
     text-align: justify;
+}
+.beneficios {
+    padding: 40px;
+}
+.cards {
+    padding: 50px;
+    display: flex;
+}
+.card {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.card h3 {
+    margin-top: 10px;
 }
 footer {
     display: flexbox;
